@@ -1,0 +1,23 @@
+{
+  "name": "buying-iq",
+  "version": "0.0.0",
+  "authors": [
+    "Juzer Ali <juzerali@live.com>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "Materialize": "materialize#~0.97.0",
+    "react": "~0.13.3",
+    "underscore": "~1.8.3"
+  }
+}
