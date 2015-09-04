@@ -128,7 +128,7 @@ var App = React.createClass({
             <div className="nav-wrapper">
               <form>
                 <div className="input-field">
-                <input id="search" type="text" className="validate" onChange={this.onChange} value={this.state.q}></input>
+                <input id="search" type="search" className="validate" onChange={this.onChange} value={this.state.q}></input>
                   <label htmlFor="search"><i className="material-icons">search</i></label>
                   <i className="material-icons">close</i>
                 </div>
