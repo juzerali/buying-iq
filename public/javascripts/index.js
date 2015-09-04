@@ -130,7 +130,6 @@ var App = React.createClass({
                 <div className="input-field">
                 <input id="search" type="search" className="validate" onChange={this.onChange} value={this.state.q}></input>
                   <label htmlFor="search"><i className="material-icons">search</i></label>
-                  <i className="material-icons">close</i>
                 </div>
               </form>
             </div>
@@ -139,60 +138,65 @@ var App = React.createClass({
           <div className="row">
             <form className="col s12">
               <p>
-                <span>
-                  <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('acer') > -1} id="acer" value="acer"/>
-                  <label htmlFor="acer">Acer</label>
+                <span className="col s1">
+                  Brand
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('micromax') > -1} id="micromax" value="micromax"/>
                   <label htmlFor="micromax">Micromax</label>
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('samsung') > -1} id="samsung" value="samsung"/>
                   <label htmlFor="samsung">Samsung</label>
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('apple') > -1} id="apple" value="apple"/>
                   <label htmlFor="apple">Apple</label>
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('videocon') > -1} id="videocon" value="videocon"/>
                   <label htmlFor="videocon">Videcon</label>
                 </span>
-                <span>
+                <span className="col s3">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('spice') > -1} id="spice" value="spice"/>
                   <label htmlFor="spice">Spice</label>
                 </span>
               </p>
               <p>
-                <span>
+                <span className="col s1">
+                  OS
+                </span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('android') > -1} id="android" value="android"/>
                   <label htmlFor="android">Android</label>
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('windows-os') > -1} id="windows-os" value="windows-os"/>
                   <label htmlFor="windows-os">Windows</label>
                 </span>
-                <span>
+                <span className="col s7">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('symbian-os') > -1} id="symbian-os" value="symbian-os"/>
                   <label htmlFor="symbian-os">Symbian</label>
                 </span>
               </p>
 
               <p>
-                <span>
+                <span className="col s1">
+                  Features
+                </span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('touchscreen') > -1} id="touchscreen" value="touchscreen"/>
                   <label htmlFor="touchscreen">Touchscreen</label>
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('wifi') > -1} id="wifi" value="wifi"/>
                   <label htmlFor="wifi">Wifi</label>
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('bluetooth') > -1} id="bluetooth" value="bluetooth"/>
                   <label htmlFor="bluetooth">Bluetooth</label>
                 </span>
-                <span>
+                <span className="col s2">
                   <input type="checkbox" onChange={this.handleTagChange} checked={this.state.tags.indexOf('email') > -1} id="email" value="email"/>
                   <label htmlFor="email">Email</label>
                 </span>
