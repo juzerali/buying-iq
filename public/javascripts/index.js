@@ -2,11 +2,11 @@ var ResultList = React.createClass({
   render: function() {
     var createItem = function(item, index) {
       return (
-          <div className="row" key={item.id}>
+          <div className="" key={item.id}>
             <div className="col s4">
-              <div className="card medium">
+              <div className="card medium hoverable">
                 <div className="card-image">
-                  <img src={item.images_o.l}/>
+                  <img src={item.images_o.xl}/>
                   <span className="card-title">{item.name}<span className="badge">{item.big_score}</span></span>
                 </div>
                 <div className="card-content">
@@ -21,7 +21,7 @@ var ResultList = React.createClass({
       );
     };
 
-    return <div className='col s12'>{this.props.items.map(createItem)}</div>;
+    return <div className='row'>{this.props.items.map(createItem)}</div>;
   }
 });
 
