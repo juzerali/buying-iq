@@ -1,5 +1,5 @@
 Instructions
-============
+=============
 1. `git clone git@github.com:juzerali/buying-iq.git`
 2. `cd buying-iq`
 3. `npm install`
